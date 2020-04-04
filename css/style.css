@@ -37,6 +37,7 @@ li {
 
 .text-bold {
   font-weight: bold;
+  color: red;
 }
 
 .text-decoration{
@@ -325,6 +326,29 @@ li {
 }
 
 #feature .section-desc {
+  flex-basis: 37%;
+}
+
+/*--------------------------------
+ OTHER
+---------------------------------*/
+
+#other .section-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#other .section-image {
+  flex-basis: 58%;
+}
+
+#other .section-image img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#other .section-desc {
   flex-basis: 37%;
 }
 
